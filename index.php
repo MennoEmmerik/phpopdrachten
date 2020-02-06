@@ -22,7 +22,7 @@ Bestandsnaam:   index.html
     </head>
     <body>
         <header>
-         <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
+         <h1 id="koptekst"><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
         </header>
         <aside>
          <h2>Menu</h2>

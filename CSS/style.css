@@ -1,0 +1,13 @@
+header
+{
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+}
+
+#koptekst
+{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}

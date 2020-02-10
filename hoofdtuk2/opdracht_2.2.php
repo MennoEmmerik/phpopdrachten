@@ -5,17 +5,21 @@ Bestandsnaam:   opdracht_2.2.php
 -->
 
 <?php
-    $text1 = "Hallo ";
-    $text2 = "toch een makkelijke taal";
-    $text3 = "wat is ";
-    $text4 = "PHP ";
-    $text5 = "nooit gedacht dat ";
-    $text6 = "de ingewikkelde installatie ";
-    $text7 = "fijn toch? ";
-    //onder het commentaar is er bij gekomen voor taak 3
-    $text8 = "ondanks ";
-    $text9 = "blijkt te zijn ";
-    $text10 = "Eigenlijk";
+    $text1 = "Hallo";
+    $text2 = "een makkelijke taal";
+    $text3 = "toch zo'n makkelijke taal";
+    $text4 = "wat is ";
+    $text5 = "PHP ";
+    $text6 = "nooit gedacht dat ";
+    $text7 = "de installatie is best ingewikkeld ";
+    $text8 = "fijn ";
+    $text9 = ".";
+    $text10 = ", ";
+    $text11 = "<br>";
+    $text12 = "is ";
+    $text13 = "Vind je niet ";
+    $text14 = "?";
+
 ?>
 <!DOCTYPE html>
 
@@ -30,7 +34,7 @@ Bestandsnaam:   opdracht_2.2.php
         <!--Hier moet je je css document in zetten-->
         <link rel="stylesheet" type="text/css" href="../CSS/style.css">
         <title>
-            Home
+            Opdracht 2.2
         </title>
     </head>
     <body>
@@ -59,13 +63,13 @@ Bestandsnaam:   opdracht_2.2.php
         <h1>Taak 2</h1>
         <?php
 //        zin 1
-        echo "<p>" . $text1 . $text3 . $text4 . $text2 . "</p>";
+        echo "<p>" . $text1 . $text10 . $text4 . $text5 . $text2 . "</p>";
 
         // zin 2
-        echo "<p>" . $text3 . $text6 . $text7 . "</p>";
+        echo "<p>" . $text7 . $text9 . $text8 . "toch?" . "</p>";
 
         //zin 3
-        echo "<p>" . $text5 . $text4 . $text2 . $text3 . "</p>";
+        echo "<p>" . $text6 . $text5 . $text3 . $text12 . $text9 . "</p>";
 
         ?>
     </div>
@@ -73,9 +77,9 @@ Bestandsnaam:   opdracht_2.2.php
             <h1>Taak 3</h1>
             <?php
             //zin 1
-            echo "<p>". $text1 . $text3 . $text4 . "," . $text8 . $text6 . $text2 . "? </p>";
+            echo "<p>". $text1 . $text10 . $text11 . $text8 . "toch dat " . $text5 . $text3 . $text12 . $text9 . "</p>";
             //zin 2
-            echo "<p>" . $text7 . $text5 . $text4 . $text10 . $text2 . $text9 . "! </p>";
+            echo "<p>" . $text7 . $text13 . $text14 .  "</p>";
             ?>
         </div>
     </body>

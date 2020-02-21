@@ -55,6 +55,7 @@ Bestandsnaam:   Opdracht3.1.php
             $firstTime = 1909;
             $maxInYear = 1;
 
+            //Ik heb het verhaal in een variabele gestopt.
             $verhaal = "De ".$iceSkatingName." (Fries: ".$roadFries.") is een ".$distance." kilometer lange ".$kind." over ".$ice." die wordt georganiseerd door de ".$organiser.". ".$place.", de hoofdstad van ".$province.", is start- en aankomstplaats. De ".$iceSkatingName." is inmiddels ".$timesRidden." maal verreden en werd voor het eerst in ".$firstTime." gereden en wordt maximaal ".$maxInYear." keer per winter gehouden.";
             echo "<p>".$verhaal."</p>";
             ?>

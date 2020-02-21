@@ -44,8 +44,8 @@ Bestandsnaam:   opdracht_2.1.php
             <div>
                 <p>
                     <?php
-                    echo "Hello World!";
-                    ?>
+                        echo "Hello World!";
+                        ?>
                 </p>
             </div>
         </main>

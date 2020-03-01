@@ -36,6 +36,17 @@ Bestandsnaam:   index.html
                              <a href="hoofdtuk2/opdracht_2.2.php">Opdracht 2.2</a>
                         </li>
                     </ul>
+                <li>
+                    Hoofdstuk 3
+                </li>
+                <ul>
+                    <<li>
+                        <a href="hoofdstuk3/Opdracht3.1/Opdracht3.1.php">Opdracht 3.1</a>
+                    </li>
+                    <li>
+                        <a href="hoofdstuk3">Opdracht 3.2</a>
+                    </li>
+                </ul>
                 </li>
              </ul>
         </aside>

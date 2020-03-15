@@ -8,7 +8,7 @@ Bestandsnaam:   header.php
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="../CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="/phpopdrachten/CSS/style.css" rel="stylesheet" type="text/css">
     <title>
         Opdracht 3.1
     </title>

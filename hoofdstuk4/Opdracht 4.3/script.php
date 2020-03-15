@@ -53,7 +53,6 @@ while($counter != 7)
 }
 
 //taak 5
-
 //tweede for loop, die het hetzelfde
 $task5 = "<table><tr>";
 for($tel = 1; $tel != 11; $tel ++)

@@ -86,6 +86,10 @@
         </table>
     </form>
 </main>
+<?php
+include "../../includes/footer.php";
+?>
+
 
 
 

@@ -1,4 +1,12 @@
 <?php
+/*--------------------- MODULE HEADER --------------------
+
+Auteur: <Menno Emmerik>
+Aanmaakdatum: <19-4-2020>
+Bestandsnaam: <script.php>
+Versie: 1.0 Release
+
+-----------------------------------------------------------*/
 //Array aanmaken met gebruikersnaam en wachtwoord
 $userAndPass = array("Menno2001" => "Emmerik2001", "Roos2000" => "roosCorduwener", "AimeeEmmerik" => "Aimee2810", "shadowRelic" => "Wouter98", "shadowStorm" => "poeperd123", "php321" => "php2020", "html2020" => "html321", "iLoveRoos" => "loveYouTo", "driveBoost" => "driverBoos2020", "officeWord" => "powerOffice");
 

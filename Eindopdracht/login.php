@@ -1,4 +1,12 @@
 <?php
+/*--------------------- MODULE HEADER --------------------
+
+Auteur: <Menno Emmerik>
+Aanmaakdatum: <19-4-2020>
+Bestandsnaam: <login.php>
+Versie: 1.0 Release
+
+-----------------------------------------------------------*/
 //Toevoegen van html sturctuur
 include "../includes/header.php";
 

@@ -33,7 +33,19 @@ include "../hoofdstuk3/variabelen.php";
     {
         echo "Goedenavond";
     };
+
+
+    session_start();
+    if (isset($_SESSION['username']))
+    {
+        $bezoeker = $_SESSION['username'] . "&nbsp;<ahref='/phpopdrachten/hoofdstuk6/loguit.php'>Loguit</a>";
+    }
+    else
+    {
+        $bezoeker = "onbekende bezoeker" . "&nbsp;<ahref='/phpopdrachten/hoofdstuk6/opdracht61.php'>Login</a>";
+    }
     ?>
+
 </footer>
 </body>
 </html>

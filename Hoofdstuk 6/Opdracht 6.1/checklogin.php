@@ -22,6 +22,4 @@ $authUsers = array(
 );
 
 
-include "../../includes/footer.php";
-
 ?>

@@ -3,10 +3,6 @@ Auteur:         Menno Emmerik
 Aanmaakdatum:   28-2-2020 + 10:56
 Bestandsnaam:   footer.php
 -->
-
-<?php
-include "../hoofdstuk3/variabelen.php";
-?>
 <footer>
     <?php
     echo $name . ", " . $klas . ", " . $year . " ";
@@ -14,8 +10,10 @@ include "../hoofdstuk3/variabelen.php";
     //Dit behoort tot opdracht 4.1
     //Het opslaan van de tijd
     $uur = date("H");
+
     //De juiste tijdzone aanhalen
     date_default_timezone_set("Europe/Amsterdam");
+
     //Bij de juiste tijd, de juiste begroeting.
     if($uur >= 0 && $uur < 5)
     {
@@ -35,15 +33,7 @@ include "../hoofdstuk3/variabelen.php";
     };
 
 
-    session_start();
-    if (isset($_SESSION['username']))
-    {
-        $bezoeker = $_SESSION['username'] . "&nbsp;<ahref='/phpopdrachten/hoofdstuk6/loguit.php'>Loguit</a>";
-    }
-    else
-    {
-        $bezoeker = "onbekende bezoeker" . "&nbsp;<ahref='/phpopdrachten/hoofdstuk6/opdracht61.php'>Login</a>";
-    }
+
     ?>
 
 </footer>
